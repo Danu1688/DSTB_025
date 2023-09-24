@@ -1,4 +1,17 @@
 proxies:
+- name: HeriToniNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 9923f08e-e1e0-470e-93be-00bb8d845892
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: HeriToni2_LiveDO_1
   type: trojan
   server: circles.asia
