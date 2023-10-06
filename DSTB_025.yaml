@@ -1,4 +1,69 @@
 proxies:
+- name: HeriToniNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: f2d598a8-0a5c-49c0-bf67-d7e6216a7003
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: HeriToniNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: f2d598a8-0a5c-49c0-bf67-d7e6216a7003
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: HeriToniNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: f2d598a8-0a5c-49c0-bf67-d7e6216a7003
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: HeriToniNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: f2d598a8-0a5c-49c0-bf67-d7e6216a7003
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: HeriToniNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: f2d598a8-0a5c-49c0-bf67-d7e6216a7003
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: HeriToni2_LiveDO_1
   type: trojan
   server: 104.17.224.203
@@ -25,19 +90,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
-- name: HeriToniNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 9923f08e-e1e0-470e-93be-00bb8d845892
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
 - name: DanuBackup_LiveDOc
   type: trojan
   server: beacon.liveon.id
